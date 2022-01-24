@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment-3</title>
+    <!-- Botstrap css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- font awesome link  -->
+    <script src="https://kit.fontawesome.com/f72cedd629.js" crossorigin="anonymous"></script>
+    <!-- animate style link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- personal css  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body style="background-color:  #E5E5E5;">
+    <header class=" container-fluid">
+        <!-- nav-var start  -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Raddison Convention Center</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a> -->
+
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <!-- nav close  -->
+
+        <!-- carosel strt  -->
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="images/banner.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block d-sm-block">
+                        <h2 class="text-white fw-bolder animate__animated  animate__backInDown">The perfect venue for
+                            your
+                            next event</h2>
+                        <p class="text-white ">Oregon event and wedding planning
+                            tools and resources to make your job
+                            easier. Bend, Oregon
+                            is the Best Place for Group Business. Unique Meeting Spaces. Team Bonding Outdoors. World
+                            Class Events. Inspiring Wedding Venues. Relaxed Mountain Vibes.</p>
+                        <button class="btn btn-dark text-white"><a class="text-decoration-none text-white"
+                                href="https://aroundtownent.com/">Book
+                                Now</a></button>
+                    </div>
+                </div>
+                <div class="carousel-item " data-bs-interval="10000">
+                    <img src="images/anas.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="text-dark fw-bolder animate__animated  animate__backInDown">Are you next?</h2>
+                        <p class="text-dark fw-bolder ">Oregon event and wedding
+                            planning tools and resources to make
+                            your job
+                            easier. Bend, Oregon
+                            is the Best Place for Group Business. Unique Meeting Spaces. Team Bonding Outdoors. World
+                            Class Events. Inspiring Wedding Venues. Relaxed Mountain Vibes.</p>
+                        <button class="btn btn-dark text-white"><a class="text-decoration-none text-white"
+                                href="https://aroundtownent.com/">Book
+                                Now</a></button>
+                    </div>
+                </div>
+                <div class="carousel-item " data-bs-interval="10000">
+                    <img src="images/taf.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="text-white fw-bolder animate__animated  animate__backInDown">The best function all
+                            the time</h2>
+                        <p class="text-white fw-bolder ">Oregon event and wedding
+                            planning tools and resources to make
+                            your job
+                            easier. Bend, Oregon
+                            is the Best Place for Group Business. Unique Meeting Spaces. Team Bonding Outdoors. World
+                            Class Events. Inspiring Wedding Venues. Relaxed Mountain Vibes.</p>
+                        <button class="btn btn-dark text-white">Book Now</button>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- carosel close  -->
+    </header>
+
+    <main>
+        <!-- precious moment  -->
+        <section class="container mt-4">
+            <div class="row align-items-center g-3">
+                <div class="col-lg-6 col-12"><img class="img-fluid w-100 p-4" src="images/wedding.png" alt=""></div>
+                <div class="col-lg-6 col-12">
+                    <h2 class="animate__animated  animate__backInRight animation1">Every moment is Precious </h2>
+                    <p>PRECIOUS MOMENTS 9 Large WEDDING or BRIDAL SHOWER Party Plates (8 Count) by Precious Moments.
+                        $9.99. BRAND NEW Factory Sealed...PRECIOUS MOMENTS Large Party Plates...Perfect for a WEDDING or
+                        BRIDAL SHOWER...(8) EIGHT Large Plates--9 Inches Wide...Vintage--These Plates are No Longer
+                        Made...from Party Express & HALLMARK.
+                    </p>
+
+                    <!-- toast start  -->
+                    <button type="button" class="btn btn-primary" id="liveToastBtn">Hire Us</button>
+                    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+
+                        <div class="toast-header">
+                            <img src="..." class="rounded me-2" alt="...">
+                            <strong class="me-auto">Bootstrap</strong>
+                            <small>11 mins ago</small>
+                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close">Hire
+                                us</button>
+                        </div>
+                        <div class="toast-body">
+                            Wellcome to our website!!!
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </section>
+        <!-- precious moment close  -->
+
+        <!-- package start  -->
+        <section class="container">
+            <h2 class="text-center my-3">Our Package</h2>
+            <div class="row g-4">
+                <div class="col-lg-3 col-12">
+                    <div class="card p-3 border-0" style="background-color: #E5E5E5;">
+                        <div>
+                            <h3>$300
+                                <br><span class="mt-3"> Business fair</span>
+                            </h3>
+                        </div>
+                        <p>We are highly interseted to accept your fair...</p>
+                        <div>
+                            <div class="d-flex align-items-center"> <i class="fas fa-check-square"></i>
+                                <p class="ms-3">First service to complete your program</p>
+                            </div>
+                            <div class="d-flex align-items-center"> <i class="fas fa-check-square"></i>
+                                <p class="ms-3">First service & limited space access</p>
+                            </div>
+                            <div class="d-flex align-items-center"> <i class="fas fa-check-square"></i>
+                                <p class="ms-3">First service to complete event support</p>
+                            </div>
+                            <div class="d-flex align-items-center"> <i class="fas fa-check-square"></i>
+                                <p class="ms-3">First service to complete Decoration desig</p>
+                            </div>
+
+                        </div>
+                        <div class="text-center"><button class="btn btn-dark rounded-3">Choose plan</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12">
+                    <div class="card p-3 border-0" style="background-color: #E5E5E5;">
+                        <div>
+                            <h3>$400
+                                <br><span class="mt-3"> Wedding basic</span>
+                            </h3>
+                        </div>
+                        <p>For weddings with basic plan
+                            and limited item</p>
+                        <div>
+                            <div class="d-flex align-items-center"> <i class="fas fa-check-square"></i>
+                                <p class="ms-3">First service to complete your program</p>
+                            </div>
+                            <div class="d-flex align-items-center"> <i class="fas fa-check-square"></i>
+                                <p class="ms-3">First service to ensure Full space access</p>
+                            </div>
+                            <div class="d-flex align-items-center"> <i class="fas fa-check-square"></i>
+                                <p class="ms-3">First service to give you mangement support</p>
+                            </div>
+                            <div class="d-flex align-items-center"> <i class="fas fa-check-square"></i>
+                                <p class="ms-3">Unique decoration design to complete your program</p>
+                            </div>
+
+                        </div>
+                        <div class="text-center"><button class="btn btn-dark rounded-3">Choose plan</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 position-relative">
+                    <div class="card p-3 border-0 text-white bg-dark">
+                        <button type="button"
+                            class="btn btn-primary position-absolute top-0 start-50 translate-middle badge border border-light rounded-circle bg-danger p-3 ">
+                            HOT
+                        </button>
+                        <div>
+                            <h3>$600
+                                <br><span class="mt-3"> Wedding plus</span>
+                            </h3>
+                        </div>
+                        <p>We are highly interseted to accept your fair...</p>
+                        <div>
+                            <div class="d-flex align-items-center"> <i class="fas fa-check-square"></i>
+                                <p class="ms-3">First service to complete your program</p>
+                            </div>
+                            <div class="d-flex align-items-center"> <i class="fas fa-check-square"></i>
+                                <p class="ms-3">First service to give you 100% ensurace</p>
+                            </div>
+                            <div class="d-flex align-items-center"> <i class="fas fa-check-square"></i>
+                                <p class="ms-3">First service to ensure you premium Decoration</p>
+                            </div>
+                            <div class="d-flex align-items-center"> <i class="fas fa-check-square"></i>
+                                <p class="ms-3">First service to ensure you best items of us</p>
+                            </div>
+
+                        </div>
+                        <div class="text-center"><button class="btn btn-light rounded-3">Choose plan</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12">
+                    <div class="card p-3 border-0" style="background-color: #E5E5E5;">
+                        <div>
+                            <h3>$300
+                                <br><span class="mt-3"> Corporate Event</span>
+                            </h3>
+                        </div>
+                        <p>For most corporate business
+                            events</p>
+                        <div>
+                            <div class="d-flex align-items-center"> <i class="fas fa-check-square"></i>
+                                <p class="ms-3">First service to complete your program</p>
+                            </div>
+                            <div class="d-flex align-items-center"> <i class="fas fa-check-square"></i>
+                                <p class="ms-3">First service to give you Full space access</p>
+                            </div>
+                            <div class="d-flex align-items-center"> <i class="fas fa-check-square"></i>
+                                <p class="ms-3">First service to provide you dedicated team</p>
+                            </div>
+                            <div class="d-flex align-items-center"> <i class="fas fa-check-square"></i>
+                                <p class="ms-3">First service to ensure Premium Decoration</p>
+                            </div>
+
+                        </div>
+                        <div class="text-center"><button class="btn btn-dark rounded-3">Choose plan</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- package close  -->
+
+        <!-- video  -->
+        <section class="container my-4">
+
+            <h2 class="text-center">Intro In Our Program</h2>
+            <video controls class="w-100" src="/pexels-pavel-danilyuk-8776122.mp4"></video>
+
+
+        </section>
+        <!-- video  -->
+
+        <!-- happy client says  start-->
+        <section class="container my-2">
+            <h2 class="text-center my-3">Happy Clients says</h2>
+
+            <div class="row justify-content-evenly g-2">
+                <div class="card shadow col-lg-3 col-12 ">
+                    <div class="d-flex flex-column align-items-center p-3  g-2">
+                        <div class="text-center">
+                            <p>Thank you so much for making our wedding day so amazing and the best day of our lives! It
+                                really was like a dream come true, and everything was perfect.
+
+                                Can we do it all again please!?</p>
+                        </div>
+                        <div><img src="images/person 1.png" class="img-fluid w-100" alt="" srcset=""></div>
+                        <div class="text-center">
+                            <h3>Aristo Keko</h3>
+                            <h5>Designer</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow col-lg-3 col-12">
+                    <div class="d-flex flex-column align-items-center p-3 g-2">
+                        <div class="text-center">
+                            <p>Just wanted to thank you all for our fairytale wedding. You guys took care of every
+                                detail and we loved every second of our special day.
+
+                                I can’t tell you how many people said what a beautiful setting Ever After is. Your
+                                supreme organisational skills took the stress out of everything!
+                            </p>
+                        </div>
+                        <div><img src="images/person 1.png" class="img-fluid w-100" alt="" srcset=""></div>
+                        <div class="text-center">
+                            <h3>Plant Kefer</h3>
+                            <h5>Artist</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow col-lg-3 col-12">
+                    <div class="d-flex flex-column align-items-center p-3 g-2">
+                        <div class="text-center">
+                            <p>Just a quick note to say thank you so much for all your hard work in making our wedding
+                                the best day of our lives. It would not have been possible without you all. Ever last
+                                detail was perfect and ( as far as we knew 😉 ) there was not 1 little hiccup!! All of
+                                our guests had a wonderful time and couldn’t praise the venue enough. .</p>
+                        </div>
+                        <div><img src="images/person 1.png" class="img-fluid w-100" alt="" srcset=""></div>
+                        <div class="text-center">
+                            <h3>justion Feso</h3>
+                            <h5>Enineer</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- happy client stop  -->
+
+        <!-- frequently asked questions start -->
+        <section class="container mt-4">
+            <h2 class="text-center mx-auto">Frequently Asked Questions</h2>
+            <div class="row align-items-center g-2">
+                <div class="col-lg-6 col-12">
+
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What’s the difference between event design and event planning?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>Event design and event planning work </strong> hand in hand to deliver a
+                                    successful
+                                    event.Events by Knight offer tailor made events. This means we incorporate both
+                                    event design and event planning to create that perfect event.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Why do you pick us?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong> We all give you 100% trust to compete your event </strong> from our core of
+                                    heart.The necessary cookies are essential to operate our websites and provide our
+                                    services by helping us provide basic functionality such as loading and rendering
+                                    pages on the websites and enabling your navigation around the websites and use of
+                                    certain features. They are also used to identify and prevent fraud and improve
+                                    security.
+
+                                    The functionality cookies record preferences and other information about choices
+                                    you've made and allow us to tailor the websites to you. These cookies mean that when
+                                    you continue to use or come back to the websites, we can provide you with our
+                                    services as you have asked for them to be provided. For example, these cookies allow
+                                    us to store language preference. They may also be used to provide certain
+                                    functionality such as playing a video.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    How do you connect us?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong> The functionality cookies record preferences and other information about
+                                        choices </strong>
+                                    you've made and allow us to tailor the websites to you. These cookies mean that when
+                                    you continue to use or come back to the websites, we can provide you with our
+                                    services as you have asked for them to be provided. For example, these cookies allow
+                                    us to store language preference.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="p-5 col-lg-6 col-12">
+                    <img class="img-fluid w-100" src="images/people.png" alt="" srcset="">
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- frequently asked questions stop -->
+    </main>
+
+    <footer class="container-fluid py-5" style="background-color: #0B0D17;">
+
+        <!-- foter start  -->
+
+        <section>
+            <div class="d-flex justify-content-lg-between align-items-center">
+                <div class="p-5">
+                    <p class="text-white">© 2020 bike. All rights reserved</p>
+                </div>
+                <div>
+                    <div class="d-flex flex-column me-5">
+                        <div>
+                            <h3 class="text-white my-2">Get The App</h3>
+                        </div>
+                        <div class="d-flex flex-column ">
+                            <div class="card text-dark my-2">
+                                <div class="d-flex align-items-center justify-content-evenly">
+                                    <div><a class="text-decoration-none" href="https://www.apple.com/"><span
+                                                class="iconify " data-icon="logos:apple"></span></a>
+                                    </div>
+                                    <div>
+                                        <p>Online-bd</p>
+                                        <p>App Store</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card text-dark my-2">
+                                <div class="d-flex align-items-center justify-content-evenly">
+                                    <div><a class="text-decoration-none" href="https://playstore.com/"> <i
+                                                class="fab fa-google-play text-success"></i></a>
+                                    </div>
+                                    <div>
+                                        <p>Online-bd</p>
+                                        <p>App Store</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <h1></h1>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque voluptatum vero iusto fuga dolore. Error, modi. Porro possimus dicta tempore natus dignissimos. Rerum magni minima placeat tempora illo libero quod?</p> -->
+        <!-- foter close  -->
+    </footer>
+    <!-- Botstrap js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- apple icon  -->
+    <script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
